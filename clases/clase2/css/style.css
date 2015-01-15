@@ -1,0 +1,78 @@
+/*
+
+Reglas CSS
+
+selector {
+  propiedad: valor;
+  propiedad: valor;
+  ...
+}
+
+selector2 {
+  propiedad: valor;
+  propiedad: valor;
+  ...
+}
+
+*/
+
+body {
+  background-color: #ede5f2;
+  color: #1c1c1c;
+  font-family: Arial;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  word-spacing: 0.4em;
+  text-decoration: none;
+  margin: 0;
+  /*
+    background-color: black;
+    background-image: url(../image/download.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom;
+    background-size: cover;
+  */
+}
+
+a {
+  color: blue;
+  font-style: italic;
+}
+
+#header-principal {
+  background-color: #000;
+  color: white;
+}
+
+#header-principal nav a {
+  color: white;
+}
+
+#main {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#main .noticias {
+  border: 10px solid #000;
+  margin: 2em;
+  padding: 4em;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
