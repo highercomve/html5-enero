@@ -1,0 +1,76 @@
+/*
+.position-absoluta,
+.position-relativa,
+.position-fija {
+}
+*/
+
+[class*="posicion-"] {
+  width: 300px;
+  height: 300px;
+  margin: 4em;
+  background-color: black;
+}
+
+.posicion-absoluta {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: green;
+  z-index: 2;
+}
+
+.posicion-relativa {
+  position: relative;
+  top: 1500px;
+  left: 1500px;
+  background-color: red;
+  z-index: 3;
+}
+
+.posicion-fija {
+  position: fixed;
+  top: 500px;
+  left: 500px;
+  background-color: blue;
+}
+
+.caja-grande {
+  width: 1500px;
+  height: 1500px;
+  border: 80px solid #000;
+  position: relative;
+}
+
+.caja-pequena {
+  width: 400px;
+  height: 400px;
+  background-color: #04ffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+
+.boton {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/google.png);
+}
+.boton.gmail {
+  background-position: 0 -690px;
+}
+.boton.calendar {
+  background-position: 0 270px;
+}
+.boton.docs {
+  
+}
+.boton.drive {
+  
+}
