@@ -1,0 +1,19 @@
+
+.modulo {
+  height: 500px;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.jumbotron.jumbotron-parallax {
+  padding-top: 8em;
+  padding-bottom: 8em;
+  background-image: url(../images/download.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 0 -1px 0 #000;
+  background-size: cover;
+  background-attachment: fixed;
+}
