@@ -1,0 +1,122 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+.ma-2em {
+  margin: 2em;
+}
+
+.navbar-default {
+  background-color: white;
+  padding-bottom: 0.8em;
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  margin: 0 auto;  
+  padding-bottom: 0;
+  background-color: #5db3b7;
+  color: white;
+}
+.jumbotron h1 {
+  color: #fddd87;
+  margin: 1.2em auto;
+}
+.jumbotron h2 {
+  font-size: 1.6em;
+  margin: 1.2em auto;
+}
+.color-anaranjado {
+  color: rgb(241, 94, 58);
+  font-weight: 500;
+}
+.lista-de-estrellas {
+  color: rgb(241, 94, 58);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 2em;
+}
+.lista-de-estrellas .glyphicon {
+  display: inline-block;
+  padding: 0 1em;
+  position: relative;
+  top: 0.2em;
+}
+
+.second,
+.ni-idea {
+  background-color: #f4f7f8;
+  padding: 3em 0;
+}
+#main {
+  padding: 3em 0;
+}
+.modulo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  height: 300px;
+}
+.modulo .icono {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  background-color: rgb(52, 73, 94);
+  font-size: 42px;
+  color: white;
+  border-radius: 100%;
+  line-height: 90px;
+  text-indent: -4px;
+}
+.modulo .h3 {}
+.modulo p {}
+
+.ni-idea .titulo-de-abajo {
+  font-size: 2em;
+}
+.ni-idea .titulo-de-abajo-pequeno {
+  margin-top: 2em;
+  font-size: 1.8em;
+}
+
+.ni-idea .titulo-de-abajo-pequeno .glyphicon {
+  color: #5db3b7;
+  display: inline-block;
+  padding: 0 0.5em;
+}
+
+.compra-ya {
+  padding: 3em 0;
+  background-color: #5db3b7;
+  color: white;
+}
+
+.btn-default {
+  background-color: #fddd87;
+  border: 0;
+  border-bottom: 3px solid #fccf55;
+  border-radius: 10px;
+  color: rgb(52, 73, 94);
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
