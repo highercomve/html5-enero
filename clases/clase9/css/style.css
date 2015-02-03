@@ -1,0 +1,72 @@
+/*
+  Generales
+*/
+.carusel1 {
+  position: relative;
+  overflow: hidden;
+  border: 1em solid white;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4),
+              0 0 20px 0 rgba(0, 0, 0, 0.4) inset;
+}
+
+/*
+  Elementos del slideshow
+*/
+.carusel1 .cycle-slideshow {}
+.carusel1 .cycle-slideshow img {
+  max-width: 100%;
+} 
+/* 
+  Estilos de la paginacion
+*/
+.carusel1 .pager {
+  position: absolute;
+  top: 0.2em;
+  right: 0.2em;
+  z-index: 1000;
+  color: white;
+  font-size: 3em;
+  line-height: 0.2em;
+}
+.carusel1 .pager span {
+  text-shadow: 0 0 2px #000;
+  cursor: pointer;
+}
+.carusel1 .pager .cycle-pager-active{
+  color: #dd1109;
+}
+
+/*
+  Estilos de la navegacion
+*/
+.carusel1 .navegation {
+  
+}
+.carusel1 .navegation a {
+  position: absolute;
+  top: 50%;
+  z-index: 1000;
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  margin-top: -0.8em;
+}
+.carusel1 .navegation a.next {
+  right: 0.2em;
+}
+.carusel1 .navegation a.prev {
+  left: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

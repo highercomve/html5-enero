@@ -3,10 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <title>Clase 9</title>
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
  
- 
   
+  <div class="carusel1">
+    <div class="cycle-slideshow" 
+      data-cycle-fx="fade"
+      data-cycle-pause-on-hover="true"
+      data-cycle-speed="90" 
+      data-cycle-timeout="0"
+      data-cycle-next=".next"
+      data-cycle-prev=".prev"
+      data-cycle-pager=".pager"
+    >
+      <img src="img/1.jpg" alt="">
+      <img src="img/2.jpg" alt="">
+      <img src="img/3.jpg" alt="">
+    </div>
+    
+    <div class="pager">
+    </div>
+    
+    <div class="navegation">
+      <a href="" class="next">
+        <span class="icon-arrow-right"></span>
+      </a>
+      <a href="" class="prev">
+        <span class="icon-arrow-left"></span>
+      </a>
+    </div>
+  </div>
+  
+  
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
 </body>
 </html>
